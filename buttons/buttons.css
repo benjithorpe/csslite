@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main{
+	width: 700px;
+	padding: 10px;
+	/*background-color: lightgray;*/
+	display: grid;
+	grid-gap: 20px;
+}
+
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button{
+	padding: 10px 15px;
+	height: 40px;
+	font-size: 19px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px lightgrey;
+	border: none;
+
+	/* for the hover state */
+	transition: background, box-shadow 0.3s ease;
+
+}
+
+button:hover{
+	box-shadow: 2px 2px 2px grey;	
+}
+
+/* BUTTONS */
+
+.btn-success{
+	background-color: #18F26C;
+}
+
+.btn-info{
+	background-color: #09CDE8;
+}
+
+.btn-dark{
+	background-color: #000000;
+	color: white;
+}
+
+.btn-light{
+	background-color: #ffffff;
+	border: 1px dotted #C8F1F7;
+}
+
+.btn-error{
+	background-color: #F74E0A;
+}
+
+.btn-danger{
+	background-color: #ff0000;
+}
+
+.btn-bright{
+	background-color: ;
+}
+
+.btn-green{
+	background-color: #00ff00;
+}
+
+.btn-normal{
+	background-color: ;
+}
+
+.btn-orange{
+	background-color: ;
+}
+
+.btn-navy{
+	background-color: navy;
+	color: white;
+}
