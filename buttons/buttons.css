@@ -30,8 +30,8 @@ button{
 	border: 1px solid grey;
 	border-radius: 5px;
 	cursor: pointer;
-	box-shadow: 2px 2px 2px lightgrey;
-	border: none;
+	box-shadow: 2px 2px 2px #ffffff;
+	border: 1px solid silver;
 
 	/* for the hover state */
 	transition: background, box-shadow 0.3s ease;
@@ -78,8 +78,9 @@ button:hover{
 	background-color: #00ff00;
 }
 
-.btn-normal{
-	background-color: ;
+.btn-blue{
+	background-color: blue;
+	color: white;
 }
 
 .btn-orange{
