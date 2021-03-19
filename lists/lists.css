@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	padding: 10px;
+}
+
+main{
+	display: grid;
+	grid-gap: 10px;
+}
+
+ul, ol, dl{
+	list-style-position: inside;
+	line-height: 1.6;
+	font-size: 18px;
+}
+
+.list-roman{
+	list-style-type: lower-roman;
+}
+
+ul li, ol li, dl li{
+	height: fit-content;
+	padding: 5px;
+	border: 1px solid lightgrey;
+}
+
+.list-space{
+	display: grid;
+	grid-gap: 5px;
+}
+
+.list-2,
+.list-3{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 10px;
+}
+
+.list-3{
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
