@@ -5,43 +5,41 @@
 }
 
 body{
-	padding: 10px 0px;
-	height: 100vh;
 	font-family: Arial;
-}
-
-main{
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	grid-gap: 10px;
 }
 
 nav{
-	height: fit-content;
+	height: max-content;
 	background-color: silver;
 	overflow: hidden;
 	width: 100%;
-	padding: 20px 0px;
-	display: grid;
-	align-items: center;
+	padding: 20px 10px;
 }
 
 nav ul{
 	list-style-type: none;
 	list-style-position: inside;
 	display: flex;
+	flex-direction: row;
+	/*gap: 10px;*/
 	align-items: center;
 	font-size: 20px;
 }
 
 nav ul li{
+	text-align: center;
 	flex: 0 1 150px;
+	/*padding: 5px;*/
 }
 
 nav li a{
 	text-decoration: none;
 	display: block;
+	color: blue;
 }
-
 
 .nav-center ul{
 	align-items: center;
@@ -52,7 +50,8 @@ nav li a{
 	display: flex;
 }
 
-.nav-split .logo{
+.nav-split .logo a,
+.nav-split #logo a{
 	font-size: 30px;
 	font-family: cursive;
 	margin-right: auto;
@@ -61,5 +60,22 @@ nav li a{
 
 .nav-right-side ul{
 	justify-content: flex-end;
+}
+
+.nav-column{
+	padding: 10px 0px;
+}
+
+.nav-column ul{
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-column li{
+	flex: 0 1 0px;
+}
+
+.nav-column li a{
+	height: 100px;
 }
 
