@@ -29,6 +29,8 @@ input[type="url"]{
 	border: 1px solid lightgrey;
 	border-radius: 3px;
 	font-size: 16px;
+	color: grey;
+	display: block;
 }
 
 
@@ -46,14 +48,11 @@ input[type="url"]{
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-	label{
-		font-weight: lighter;
-	}
-
 	input[type="text"],
 	input[type="email"],
 	input[type="password"],
 	input[type="url"]{
+		display: block;
 		width: 80%;
 		padding: 10px;
 		font-size: 18px;
@@ -61,7 +60,11 @@ input[type="url"]{
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+	form{
+		/*width: 80%;*/
+	}
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
