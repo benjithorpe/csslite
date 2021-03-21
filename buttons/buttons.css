@@ -9,33 +9,36 @@ main{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 10px;
-	align-items: center;
 	text-align: center;
-	justify-content: center;
 }
 
+/* BUTTONS */
 .btn,
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
 button{
-	padding: 10px 15px;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 10px 1em;
 	height: 40px;
 	font-size: 19px;
-	border: 1px solid grey;
 	border-radius: 5px;
 	cursor: pointer;
 	box-shadow: 2px 2px 2px #ffffff;
+	border: none;
+	transition: box-shadow 0.3s ease;
+}
+
+button,
+.btn{
 	border: 1px solid silver;
-	transition: background, box-shadow 0.3s ease;
 }
 
 button:hover{
-	box-shadow: 2px 2px 2px #bbbbbb;	
+	box-shadow: 2px 2px 2px lightgrey;	
 }
 
-
-/* BUTTONS */
 .btn-success{
 	background-color: #05F725;
 }
@@ -75,6 +78,11 @@ button:hover{
 .btn-tomato{
 	background-color: tomato;
 	color: whitesmoke;
+}
+
+.btn-teal{
+	background-color: teal;
+	color: rgb(255, 255, 255);
 }
 
 .btn-navy{
