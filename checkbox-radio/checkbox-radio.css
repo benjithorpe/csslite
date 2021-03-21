@@ -4,16 +4,10 @@
 	box-sizing: border-box;
 }
 
-body{
-	display: grid;
-	justify-content: center;
-	align-items: center;
-}
-
-
 input[type="radio"],
 input[type="checkbox"]{
+	display: inline-block;
 	margin: 5px;
-	box-shadow: 2px 2px 2px lightgrey;
+	box-shadow: 2px 2px 4px lightgrey;
 }
 
