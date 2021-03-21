@@ -23,12 +23,12 @@ CSSLite is lightweight, minimal and simple. It styles raw HTML elements (and off
 > Currently no plans to support older browsers.
 > We aim to support modern browsers and make contributing easy.
 
-- [ ]  Chrome latest _(unchecked)_
+- [ ] Chrome latest _(unchecked)_
 - [x] Firefox latest 
 - [x] Opera latest
 - [x] Midori latest
 - [x] Brave Browser latest
-- [ ]  Safari latest _(unchecked)_
+- [ ] Safari latest _(unchecked)_
 
 
 ## Getting Started
@@ -54,7 +54,7 @@ There are a couple ways to get CSSLite:
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 <!-- ## Versioning
 
