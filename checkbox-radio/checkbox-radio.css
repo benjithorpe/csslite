@@ -1,0 +1,13 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+	display: inline-block;
+	margin: 5px;
+	box-shadow: 2px 2px 4px lightgrey;
+}
+
