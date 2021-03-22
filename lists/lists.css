@@ -13,19 +13,15 @@ main{
 	grid-gap: 10px;
 }
 
-ul, ol, dl{
+ul, ol{
 	list-style-position: inside;
 	line-height: 1.6;
-	font-size: 18px;
+	font-size: 1rem;
 }
 
-.list-roman{
-	list-style-type: lower-roman;
-}
-
-ul li, ol li, dl li{
+ul li, ol li{
 	height: fit-content;
-	padding: 5px;
+	padding: .5rem;
 	border: 1px solid lightgrey;
 }
 
@@ -34,15 +30,10 @@ ul li, ol li, dl li{
 	grid-gap: 5px;
 }
 
-.list-2,
-.list-3{
+.list-2{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 10px;
-}
-
-.list-3{
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 

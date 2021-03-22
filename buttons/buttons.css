@@ -21,22 +21,22 @@ button{
 	font-family: sans-serif;
 	text-align: center;
 	padding: 10px 1em;
-	height: 40px;
-	font-size: 19px;
+	font-size: 1.05rem;
 	border-radius: 5px;
 	cursor: pointer;
+	/* border: none; */
+	border: 1px solid silver;
 	box-shadow: 2px 2px 2px #ffffff;
-	border: none;
 	transition: box-shadow 0.3s ease;
 }
 
-button,
-.btn{
-	border: 1px solid silver;
+button:hover{ 
+	box-shadow: 2px 2px 2px lightgrey;	
 }
 
-button:hover{
-	box-shadow: 2px 2px 2px lightgrey;	
+button[disabled],
+html input[disabled] {
+  cursor: default;
 }
 
 .btn-success{

@@ -19,8 +19,9 @@ table{
 	display: block;
 	overflow: scroll;
 	white-space: nowrap;
-	width: 100%;
 	margin-top: 1rem;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 th{ border-top: 2px solid lightgrey; }
