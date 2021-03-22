@@ -1,6 +1,10 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. 
+When contributing to this repository:
+
+- Create an issue and give details on what the issue is solving or bringing. 
+
+> Or Optionally, first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project. [Read the Code of Conduct](#coc)
 
@@ -13,30 +17,40 @@ Always comment on an issue you want to work on, so as not to cause merge conflic
 
 Make sure that you work in the branch you want to make changes to. _eg:_ 
 
-> Assume you want to make changes to the HTML `forms`, create a local branch name `csslite/forms` or use the existing one on the repo.
+> Assume you want to make changes to the HTML `forms`, create a local branch name `csslite/forms` or make changes in the  existing folder on the development branch.
 
-Test all your changes in different ways (or browsers) and make sure they work.
+Test all your changes in different viewports (or browsers) and make sure they work.
 
 
 ## Commit Process
 
-On git commit, we plan to follow these styles:
+During git commit, we plan to follow these styles:
 
-> - **\[feat] (forms): Summary/Heading**
+> - **\[type\] (scope): Summary/Heading**
 > 
->  optional note here about what changed
+>  **Body and what was added or solved**
 
-1. [feat] describes what type of changes you made.
-2. (forms): describes on what area the features were added.
+1. **[type]** describes what type of changes you made.
+2. **(scope):** describes what area the features were added.
 3. Summary/Heading - short summary of what changed
 4. Optional body goes into detail of what happened.
 
+> ### "scope" is optional
 
-##### Summary of features and templates
-> 1. **[feat]** - New feature to be added
-> 2. **\[fix](optional issue_ID)**  - What fixes you did on what issue
-> 3. **[edit]** - What file you edit (typo, comments)
-> 4. **\[Addition](branch_name)** - What file, folder, or branch you added.
+#### Summary/Heading should be in present tense
+> * use **add** instead of "adds" or "added"
+> * no dot(.) at the end
+> * Capitalization of first letter is optional
+
+
+##### Commit templates
+> * 
+> * **[docs]:** -- Documentation related changes(typos, comments).
+> * **\[fix\](issue_ID):**  - A bug fix.
+> * **[feat]:** - A new feature.
+> * **[perf]:** - A code that improves performance
+> * **[style]:** - Styling related code.
+> * **\[add\](folder_name)** - What file, folder was added.
 
 
 ## Pull Request Process
@@ -90,10 +104,10 @@ Examples of representing a project or community by posting via an official socia
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members (and community) of the project's leadership.
 
 
-<!-- ### Attribution
+### Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
+available at <http://contributor-covenant.org/version/1/4>
 
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/ -->
+* [homepage]: http://contributor-covenant.org
+* [version]: http://contributor-covenant.org/version/1/4/
