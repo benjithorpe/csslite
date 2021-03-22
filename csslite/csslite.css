@@ -1,0 +1,264 @@
+/*
+* CSSLite 0.0.1
+* Copyright 2021, Benjamin Thorpe
+* https://csslite.netlify.app
+* Free to use, misuse & abuse under the MIT license.
+
+/* BASE STYLES
+============================================================== */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* NOTE: html is 62.5% so that all the REM measurements are based on 10px sizing. So 1.5rem = 15px */
+html { font-size: 62.5%; }
+
+body{font-family: 'Trebuchet MS', Arial, sans-serif;
+    /* font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica; */ 
+}
+
+/* Links
+---------------------------------- */
+/* a {color: #1EAEDB; } */
+a:hover { color: #0FA0CE; }
+
+
+
+/* HEADERS
+=================================================================== */
+header{
+	padding: 1.4rem;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	border-bottom: 1px solid rgba(211, 211, 211, 0.322);
+}
+
+/* Utility classes for headers
+-------------------------------------------------- */
+.header-max,
+.header-lg,
+.header-md,
+.header-sm {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-max{ height: 100vh; }
+.header-lg{ height: 75vh; }
+.header-md{ height: 50vh; }
+.header-sm{ height: 25vh; }
+
+
+/* BUTTONS
+=========================================================== */
+.btn,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button{
+	font-family: sans-serif;
+	text-align: center;
+	padding: 10px 1em;
+	font-size: 1.05rem;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	box-shadow: 2px 2px 2px #ffffff;
+	transition: box-shadow 0.3s ease;
+}
+
+button, .btn{ border: 1px solid silver; }
+
+button:hover{ box-shadow: 2px 2px 2px lightgrey; }
+
+button[disabled],
+html input[disabled] { cursor: default; }
+
+/* Utility classes for buttons
+-------------------------------------------------- */
+.btn-success{ background-color: #05F725; }
+.btn-info{ background-color: #09CDE8; }
+.btn-green{ background-color: #13E040; }
+.btn-orange{ background-color: orange; }
+
+.btn-dark{
+	background-color: #000000;
+	color: white;
+}
+
+.btn-light{
+	background-color: #ffffff;
+	border: 1px solid #C8F1F7;
+}
+
+.btn-error{
+	background-color: #ff005c;
+	color: white;
+}
+
+.btn-primary{
+	background-color: #195EF7;
+	color: white;
+}
+
+.btn-tomato{
+	background-color: tomato;
+	color: whitesmoke;
+}
+
+.btn-teal{
+	background-color: teal;
+	color: white;
+}
+
+.btn-navy{
+	background-color: navy;
+	color: white;
+}
+
+
+/* LISTS
+============================================================ */
+ul, ol{
+	list-style-position: inside;
+	line-height: 1.6;
+	font-size: 1rem;
+}
+
+ul li, ol li{
+	height: fit-content;
+	padding: .5rem;
+	border: 1px solid lightgrey;
+}
+
+.list-space{
+	display: grid;
+	grid-gap: 5px;
+}
+
+.list-2{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 10px;
+}
+
+
+/* FORMS
+============================================================ */
+form{
+	width: 100%;
+	padding: 1rem;
+}
+
+label{
+	display: inline-block;
+	margin-top: 1.5rem;
+	margin-bottom: 5px;
+	font-family: sans-serif, Arial;
+	letter-spacing: 1px;
+	color: rgb(99, 96, 96);
+	font-size: 1.13rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+textarea{
+	display: block;
+	width: 100%;
+	padding: .7rem;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	font-size: 1rem;
+	outline: 0;
+    overflow: auto;
+}
+
+textarea{ min-height: 70px; }
+
+/* all placeholders */
+::placeholder{
+	color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* TABLES
+======================================================== */
+table{
+	display: block;
+	overflow: scroll;
+	white-space: nowrap;
+	margin-top: 1rem;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th{ border-top: 2px solid lightgrey; }
+
+th, td {
+  padding: .8rem;
+  text-align: left;
+  border-left: 1px solid #e1e1e1;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+
+
+/* MEDIA QUERIES
+==================================================== */
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+    /* queries for forms
+    ---------------------------------- */
+    label{ width: 100px; } 
+
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	input[type="url"]{
+		width: 80%;
+		display: inline-block;
+		font-size: 1.13rem;
+	}
+    /* ------- end form query ------- */
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    /* queries for forms
+    ---------------------------------- */
+    input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	input[type="url"],
+	textarea{
+		width: 80%;
+		display: block;
+ 	}
+    /* ------- end form query ------- */
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    /* queries for forms
+    ---------------------------------- */
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	input[type="url"],
+	textarea{ width: 100%; }	
+    /* ------- end form query ------- */
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
