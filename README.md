@@ -7,9 +7,9 @@ CSSLite is a simple, lightweight, easy-to-use responsive boilerplate to kickstar
 
 ### Why use it
 
-CSSLite is lightweight, minimal and simple. It styles raw HTML elements (and offers a few additions _with classes_) and provides a responsive grid. Nothing more.
+CSSLite is lightweight, minimal and simple to get started with. It styles raw HTML elements (also offers a few additions _with some classes_) and provides a responsive grid. Nothing more.
 
-- Around _N_ lines of CSS unminified and with comments
+- Around 250+ lines of CSS unminified and with comments
 - It's simple to get started with.
 - It's Opensource!
 - Change anything in the stylesheet to suit your comfort.
@@ -45,7 +45,7 @@ There are a couple ways to get CSSLite:
 
 #### Installing
 
-- Extract files from the ZIP file.
+- Click the download link.
 - Copy the `csslite.css` to your project folder.
 - Link to `csslite.css` from your HTML file.
 - __voilà! you are done._
@@ -54,7 +54,7 @@ There are a couple ways to get CSSLite:
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
 
 <!-- ## Versioning
 
@@ -65,7 +65,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## License
 
 This project is licensed under the MIT License _feel free to use, misuse and abuse it as you like :)_. 
-See the [LICENSE](LICENSE) file for details
+See the [LICENSE](LICENSE) file for details.
+
+> During re-distribution, re-development, or any other personal changes made within `csslite.css`, 
+> We only ask that you keep the file name (`csslite.css`) as it is. Nothing more.
 
 
 ## Acknowledgments
@@ -83,4 +86,4 @@ CSSLite inspiration comes from:
 
 * **Benjamin Thorpe** - *Initial work* - [CSSLite](https://github.com/benjithorpe/csslite)
 
-See also the list of [contributors](https://github.com/benjithorpe/csslite/contributors) who participated in this project.
+<!-- See also the list of [contributors](https://github.com/benjithorpe/csslite/contributors) who participated in this project. -->
