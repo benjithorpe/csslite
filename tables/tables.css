@@ -9,42 +9,27 @@ body{
 }
 
 main{
-	width: 100%
+	width: 100%;
 	margin: auto;
 }
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 table{
-	width: 100%;
-	margin: auto;
-	/*margin-top: 10px;*/
-	border-top: 2px solid lightgrey;
-	position: relative;
-}
-
-table::before{
-	content: "Please Rotate your screen to view all details clearly!";
 	display: block;
-	position: absolute;
-	top: -20px;
+	overflow: scroll;
+	white-space: nowrap;
+	width: 100%;
+	margin-top: 1rem;
 }
 
-th,
-td {
-  padding: 10px;
+th{ border-top: 2px solid lightgrey; }
+
+th, td {
+  padding: .8rem;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; 
-}
-
-th:first-child,
-td:first-child {
-  padding-left: 0; 
-}
-
-th:last-child,
-td:last-child {
-  padding-right: 0; 
+  border-left: 1px solid #e1e1e1;
+  border-bottom: 1px solid #E1E1E1;
 }
 
 
@@ -54,34 +39,13 @@ td:last-child {
 @media (min-width: 400px) {}
 
 /* Larger than phablet */
-@media (min-width: 550px) {
-	table{
-		width: 90%;
-		margin: auto;
-		overflow: hidden;
-	}
-
-	table::before{
-		content: "";
-	}
-
-	th:first-child,
-	td:first-child {
-  		padding-left: 10px; 
-	}
-}
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {
-	table{
-		width: 80%;
-		font-size: 18px;
-	}
-}
+@media (min-width: 750px) {}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
