@@ -57,7 +57,8 @@ During git commit, we plan to follow these styles:
 
 1. Ensure that you include the issue_ID for which you are doing the pull request.
 
-2. You may merge the Pull Request in once you have the sign-off of two other developers/maintainers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+2. You may merge the Pull Request in once you have the sign-off of two other developers/maintainers, 
+or if you do not have permission to do that, you may request the second reviewer to merge it for you.
 
 
 ## <a id="coc"></a>Code of Conduct

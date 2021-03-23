@@ -1,5 +1,5 @@
 /*
-* CSSLite 0.0.1
+* CSSLite 0.0.2
 * Copyright 2021, Benjamin Thorpe
 * https://csslite.netlify.app
 * Free to use, misuse & abuse under the MIT license.
@@ -12,16 +12,10 @@
     box-sizing: border-box;
 }
 
-/* NOTE: html is 62.5% so that all the REM measurements are based on 10px sizing. So 1.5rem = 15px */
-html { font-size: 62.5%; }
-
-body{font-family: 'Trebuchet MS', Arial, sans-serif;
-    /* font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica; */ 
-}
+body{ font-family: 'Trebuchet MS', Arial, sans-serif; }
 
 /* Links
 ---------------------------------- */
-/* a {color: #1EAEDB; } */
 a:hover { color: #0FA0CE; }
 
 
@@ -31,7 +25,7 @@ a:hover { color: #0FA0CE; }
 header{
 	padding: 1.4rem;
 	font-family: Arial, Helvetica, sans-serif;
-	line-height: 1.5em;
+	line-height: 1.5;
 	border-bottom: 1px solid rgba(211, 211, 211, 0.322);
 }
 
@@ -66,12 +60,11 @@ button{
 	font-size: 1.05rem;
 	border-radius: 5px;
 	cursor: pointer;
-	border: none;
 	box-shadow: 2px 2px 2px #ffffff;
 	transition: box-shadow 0.3s ease;
+	border: 1px solid silver; 
+	text-decoration: none;
 }
-
-button, .btn{ border: 1px solid silver; }
 
 button:hover{ box-shadow: 2px 2px 2px lightgrey; }
 
@@ -126,15 +119,13 @@ html input[disabled] { cursor: default; }
 ul, ol{
 	list-style-position: inside;
 	line-height: 1.6;
-	font-size: 1rem;
+	font-size: .8rem;
 }
 
-ul li, ol li{
-	height: fit-content;
-	padding: .5rem;
-	border: 1px solid lightgrey;
-}
+ul li, ol li{ padding: .5rem; }
 
+/* Utility classes for buttons
+-------------------------------------------------------------- */
 .list-space{
 	display: grid;
 	grid-gap: 5px;
@@ -149,10 +140,7 @@ ul li, ol li{
 
 /* FORMS
 ============================================================ */
-form{
-	width: 100%;
-	padding: 1rem;
-}
+form{ padding: .7rem; }
 
 label{
 	display: inline-block;
@@ -179,7 +167,7 @@ textarea{
     overflow: auto;
 }
 
-textarea{ min-height: 70px; }
+textarea{ min-height: 100px; }
 
 /* all placeholders */
 ::placeholder{
@@ -220,13 +208,18 @@ th, td {
 @media (min-width: 550px) {
     /* queries for forms
     ---------------------------------- */
-    label{ width: 100px; } 
+	form{ padding: initial; }
+
+    label{ 
+		min-width: 15%; 
+		width: 100px; 
+	} 
 
 	input[type="text"],
 	input[type="email"],
 	input[type="password"],
 	input[type="url"]{
-		width: 80%;
+		/* width: 80%; */
 		display: inline-block;
 		font-size: 1.13rem;
 	}
@@ -234,31 +227,10 @@ th, td {
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
-    /* queries for forms
-    ---------------------------------- */
-    input[type="text"],
-	input[type="email"],
-	input[type="password"],
-	input[type="url"],
-	textarea{
-		width: 80%;
-		display: block;
- 	}
-    /* ------- end form query ------- */
-}
+@media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
-    /* queries for forms
-    ---------------------------------- */
-	input[type="text"],
-	input[type="email"],
-	input[type="password"],
-	input[type="url"],
-	textarea{ width: 100%; }	
-    /* ------- end form query ------- */
-}
+@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
