@@ -33,7 +33,7 @@ CSSLite is lightweight, minimal and simple to get started with. It styles raw HT
 
 ## Getting Started
 
-These instructions will get you run the project locally.
+These instructions will get you to run the project locally.
 
 
 #### Download
