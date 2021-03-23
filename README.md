@@ -1,8 +1,8 @@
 # [CSSLite](https://csslite.netlify.app)
 
-CSSLite is a simple, lightweight, easy-to-use responsive boilerplate to kickstart any responsive project.
+A simple, lightweight, easy-to-use responsive boilerplate to kickstart any responsive project.
 
-> Check out <https://csslite.netlify.app> for documentation and details.
+>  <a href="https://csslite.netlify.app">Documentation</a>
 
 
 ### Why use it
@@ -33,7 +33,7 @@ CSSLite is lightweight, minimal and simple to get started with. It styles raw HT
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you run the project locally.
 
 
 #### Download
@@ -73,7 +73,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-CSSLite inspiration comes from:
+Inspired from: 
 		
 * Hat tip to anyone whose code was used or added
 * [Flacon](https://github.com/buckyroberts/Falcon) created by [Bucky Roberts](https://twitter.com/bucky_roberts)
