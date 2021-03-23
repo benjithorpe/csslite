@@ -86,4 +86,4 @@ Inspired from:
 
 * **Benjamin Thorpe** - *Initial work* - [CSSLite](https://github.com/benjithorpe/csslite)
 
-<!-- See also the list of [contributors](https://github.com/benjithorpe/csslite/contributors) who participated in this project. -->
+See also the list of [contributors](https://github.com/benjithorpe/csslite/contributors) who participated in this project.
