@@ -13,28 +13,28 @@ main{
 	grid-gap: 10px;
 }
 
+/* LISTS
+============================================================ */
 ul, ol{
 	list-style-position: inside;
 	line-height: 1.6;
-	font-size: 1rem;
+	font-size: .8rem;
 }
 
 ul li, ol li{
 	height: fit-content;
-	padding: .5rem;
-	border: 1px solid lightgrey;
+	padding: .4rem; 
 }
 
-.list-space{
+/* Utility classes for lists
+-------------------------------------------------------------- */
+.list-space, .list-split{
 	display: grid;
-	grid-gap: 5px;
-}
-
-.list-2{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 10px;
 }
+
+.list-split{ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+
 
 
 /* Mobile first queries */

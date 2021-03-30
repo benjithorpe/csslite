@@ -13,25 +13,29 @@ main{
 	margin: auto;
 }
 
-/* Tables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* TABLES
+======================================================== */
 table{
 	display: block;
-	overflow: scroll;
+	width: 100%;
 	white-space: nowrap;
 	margin-top: 1rem;
 	border-collapse: collapse;
-	border-spacing: 0;
 }
-
-th{ border-top: 2px solid lightgrey; }
 
 th, td {
-  padding: .8rem;
-  text-align: left;
-  border-left: 1px solid #e1e1e1;
-  border-bottom: 1px solid #E1E1E1;
+	padding: .8rem;
+	text-align: left;
+	border-bottom: 1px solid #E1E1E1;
 }
+
+/* Utility classes for tables
+-------------------------------------------------------------- */
+.table-scroll{ overflow: scroll; }
+.table-scroll-x{ overflow-x: scroll; }
+.table-scroll-y{ overflow-y: scroll; }
+.table-borders th, .table-borders td{ border-left: 2px solid #e1e1e1; }
+.table-borders th{ border-top: 2px solid lightgrey; }
 
 
 /* Mobile first queries */

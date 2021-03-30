@@ -12,7 +12,8 @@ main{
 	text-align: center;
 }
 
-/* BUTTONS */
+/* BUTTONS
+=========================================================== */
 .btn,
 input[type="button"],
 input[type="submit"],
@@ -24,28 +25,22 @@ button{
 	font-size: 1.05rem;
 	border-radius: 5px;
 	cursor: pointer;
-	/* border: none; */
-	border: 1px solid silver;
 	box-shadow: 2px 2px 2px #ffffff;
 	transition: box-shadow 0.3s ease;
+	border: 1px solid silver; 
+	text-decoration: none;
 }
 
-button:hover{ 
-	box-shadow: 2px 2px 2px lightgrey;	
-}
+button:hover{ box-shadow: 2px 2px 2px lightgrey; }
 
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
+button[disabled], input[disabled] { cursor: default; }
 
-.btn-success{
-	background-color: #05F725;
-}
-
-.btn-info{
-	background-color: #09CDE8;
-}
+/* Utility classes for buttons
+-------------------------------------------------- */
+.btn-success{ background-color: #05F725; }
+.btn-info{ background-color: #09CDE8; }
+.btn-green{ background-color: #13E040; }
+.btn-orange{ background-color: orange; }
 
 .btn-dark{
 	background-color: #000000;
@@ -62,17 +57,9 @@ html input[disabled] {
 	color: white;
 }
 
-.btn-green{
-	background-color: #13E040;
-}
-
 .btn-primary{
 	background-color: #195EF7;
 	color: white;
-}
-
-.btn-orange{
-	background-color: orange;
 }
 
 .btn-tomato{
@@ -82,7 +69,7 @@ html input[disabled] {
 
 .btn-teal{
 	background-color: teal;
-	color: rgb(255, 255, 255);
+	color: white;
 }
 
 .btn-navy{

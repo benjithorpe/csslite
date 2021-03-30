@@ -4,15 +4,12 @@
 	box-sizing: border-box;
 }
 
-form{
-	width: 100%;
-	padding: 1rem;
-}
+/* FORMS
+============================================================ */
+form{ padding: .7rem; }
 
 label{
 	display: inline-block;
-	margin-top: 1.5rem;
-	margin-bottom: 5px;
 	font-family: sans-serif, Arial;
 	letter-spacing: 1px;
 	color: rgb(99, 96, 96);
@@ -24,16 +21,15 @@ input[type="email"],
 input[type="password"],
 input[type="url"],
 textarea{
-	display: block;
-	width: 100%;
-	padding: .7rem;
+	padding: .5em;
 	border: 1px solid lightgrey;
 	border-radius: 3px;
 	font-size: 1rem;
 	outline: 0;
+    overflow: auto;
 }
 
-textarea{ min-height: 70px; }
+textarea{ min-height: 100px; }
 
 /* all placeholders */
 ::placeholder{
@@ -43,48 +39,17 @@ textarea{ min-height: 70px; }
 
 
 /* MOBILE FIRST MEDIA QUERIES */
-
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
 /* Larger than phablet */
-@media (min-width: 550px) {
-	label{ 
-		width: 100px;
-	}
-
-	input[type="text"],
-	input[type="email"],
-	input[type="password"],
-	input[type="url"]{
-		width: 80%;
-		display: inline-block;
-		font-size: 1.13rem;
-	}	
-}
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {
-	input[type="text"],
-	input[type="email"],
-	input[type="password"],
-	input[type="url"],
-	textarea{
-		width: 80%;
-		display: block;
- 	}
-}
+@media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
-	input[type="text"],
-	input[type="email"],
-	input[type="password"],
-	input[type="url"],
-	textarea{
-		width: 100%;
-	}	
-}
+@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
