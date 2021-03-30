@@ -38,7 +38,7 @@ These instructions will get you to run the project locally.
 #### Download
 There are a couple ways to get CSSLite:
 
-- [Download the latest version](https://github.com/benjithorpe/csslite/releases) or [Check other versions](https://github.com/benjithorpe/csslite/releases)
+- [Download the latest version](https://github.com/benjithorpe/csslite/releases/latest) or [Check other versions](https://github.com/benjithorpe/csslite/releases)
 - Clone the repo: `git clone https://github.com/benjithorpe/csslite.git`.
 
 
