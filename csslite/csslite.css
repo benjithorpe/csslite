@@ -24,7 +24,7 @@ a:hover { color: #0FA0CE; }
 /* HEADERS
 =================================================================== */
 header{
-	padding: 1.4rem;
+	padding: 1em;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.5;
 	border-bottom: 1px solid rgba(211, 211, 211, 0.322);
@@ -63,7 +63,7 @@ button{
 	cursor: pointer;
 	box-shadow: 2px 2px 2px #ffffff;
 	transition: box-shadow 0.3s ease;
-	border: 1px solid silver; 
+	border: 1px solid silver;
 	text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ ul, ol{
 
 ul li, ol li{
 	height: fit-content;
-	padding: .4rem; 
+	padding: .4rem;
 }
 
 /* Utility classes for lists
@@ -189,8 +189,8 @@ th, td {
 
 /* Utility classes for tables
 -------------------------------------------------------------- */
-.table-scroll{ overflow: scroll; }
-.table-scroll-x{ overflow-x: scroll; }
+.table-scroll,
+.table-scroll-x,
 .table-scroll-y{ overflow-y: scroll; }
 .table-borders th, .table-borders td{ border-left: 2px solid #e1e1e1; }
 .table-borders th{ border-top: 2px solid lightgrey; }

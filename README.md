@@ -2,7 +2,7 @@
 
 A simple, lightweight, minimal and easy-to-use responsive boilerplate to kickstart any project.
 
->  <a href="https://csslite.netlify.app">Documentation</a>
+>  <a href="https://csslite.netlify.app" target="_blank">Documentation</a>
 
 
 ### Why use it
@@ -10,12 +10,11 @@ A simple, lightweight, minimal and easy-to-use responsive boilerplate to kicksta
 CSSLite is lightweight, minimal and simple to get started with. It styles raw HTML elements (also offers a few additions _with some classes_) and provides a responsive grid. Nothing more.
 
 - Around 200+ lines of CSS unminified and with comments
-- It's simple to get started with.
+- It's simple and easy to get started with.
 - It's Opensource!
-- Change anything in the stylesheet to suit your comfort.
-- Rename classes, colors, etc... to whatever you like and want 
+- Change anything in the stylesheet to suit your comfort. 
 - No compiling or installing... just plain vanilla CSS
-- Use with other frameworks or your custom CSS with no fuss.
+- Use with other frameworks or your custom CSS.
 
 
 ## Browser support
@@ -52,7 +51,7 @@ There are a couple ways to get CSSLite:
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) on the process for submitting pull requests and contributing.
 
 <!-- ## Versioning
 
@@ -61,8 +60,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This project is licensed under the MIT License _feel free to use, misuse and abuse it as you like :)_. 
-See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License _feel free to use, misuse and abuse it as you like :)_.
+See the [LICENSE](LICENSE) file for more details.
 
 > During re-distribution, re-development, or any other personal changes made within `csslite.css`, 
 > We only ask that you keep the file name (`csslite.css`) as it is. Nothing more.
@@ -70,18 +69,17 @@ See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-
 Inspired from: 
 		
 * [Flacon](https://github.com/buckyroberts/Falcon) created by [Bucky Roberts](https://twitter.com/bucky_roberts)
 * [Skeleton](http://www.getskeleton.com) created by [Dave Gamache](www.davegamache.com)
 * [w3.css](https://www.w3schools.com/w3css/default.asp) created by [W3Schools](https://www.w3schools.com/)
-* Hat tip to anyone whose code was used or added
+* Hat tip to anyone whose code/contribution was used or added.
 
-> CSSLite was created by [Benjamin Thorpe](https://benjithorpe.github.io) for a simpler web and the freedom to control your CSS as you please.
+> CSSLite was created for a simpler web and the freedom to control your CSS as you please.
 
 ### Authors
 
 * **Benjamin Thorpe** - *Initial work* - [CSSLite](https://github.com/benjithorpe/csslite)
 
-See also the list of [contributors](https://github.com/benjithorpe/csslite/contributors) who participated in this project.
+See the list of [contributors](https://github.com/benjithorpe/csslite/contributors) who participated in this project.
