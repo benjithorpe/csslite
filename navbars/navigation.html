@@ -7,14 +7,21 @@
 	<link rel="stylesheet" type="text/css" href="navigation.css">
 </head>
 <body>
-	<nav class="nav-center">
+	<nav>
+		<div class="logo">LOGO</div>
 		<ul>
-			<li><a href="#">Nav</a></li>
-			<li><a href="#">Nav</a></li>
-			<li><a href="#">Nav</a></li>
-			<li><a href="#">Nav</a></li>
+			<li><a href="#">Nav Item</a></li>
+			<li><a href="#">Nav Item</a></li>
+			<li><a href="#">Nav Item</a></li>
+			<li><a href="#">Nav Item</a></li>
 		</ul>
-	</nav>			
+
+		<div class="burger">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</nav>
 
 	<nav class="nav-left">
 		<ul>
@@ -25,7 +32,8 @@
 		</ul>
 	</nav>
 
-	<nav>
+	<nav class="nav-center">
+		<div class="logo">LOGO</div>
 		<ul>
 			<li><a href="#">Nav</a></li>
 			<li><a href="#">Nav</a></li>
@@ -33,5 +41,13 @@
 			<li><a href="#">Nav</a></li>
 		</ul>
 	</nav>
+
+	<!-- TODO: will be added in the documentation.
+	<script>
+		const burger = document.querySelector('.burger');
+		burger.addEventListener('click', () => {
+			document.querySelector('nav ul').classList.toggle('showNav');
+		});
+	</script> -->
 </body>
 </html>
