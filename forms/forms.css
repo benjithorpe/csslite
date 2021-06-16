@@ -1,55 +1,90 @@
-*{
+*, *::before, *::after{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 
+html{ font-size: 62.5%; }
+body{ font-family: 'Trebuchet MS', Arial, sans-serif; }
+
 /* FORMS
 ============================================================ */
-form{ padding: .7rem; }
+form{
+	padding: 1rem;
+	width: 95%;
+	margin: auto;
+}
 
-label{
-	display: inline-block;
-	font-family: sans-serif, Arial;
-	letter-spacing: 1px;
-	color: rgb(99, 96, 96);
-	font-size: 1.13rem;
+label, .form-div label{
+	display: block;
+	letter-spacing: .025em;
+	color: #232;
+	font-size: 1.6rem;
+	font-weight: normal;
+	margin-bottom: 0.1em;
+}
+
+input, textarea{
+	padding: .7em .5em;
+	font-size: 1.6rem;
+	border-radius: 5px;
+	width: 100%;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="url"],
+input[type="search"],
 textarea{
-	padding: .5em;
 	border: 1px solid lightgrey;
-	border-radius: 3px;
-	font-size: 1rem;
-	outline: 0;
-    overflow: auto;
 }
 
-textarea{ min-height: 100px; }
+textarea{
+	padding: .5em;
+	line-height: 1.5;
+	min-height: 8em;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 
-/* all placeholders */
 ::placeholder{
-	color: grey;
+	color: #777;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Utility classes for form
+------------------------------------------------ */
+.form-div{
+	padding: 0.2em;
+	margin-bottom: .55em;
+}
 
-/* MOBILE FIRST MEDIA QUERIES */
-/* Larger than mobile */
+input.only-bottom{
+	border: none;
+	border-bottom: 1px solid #d3d3d3;
+	border-radius: 2px;
+}
+
+
+/* MEDIA QUERIES
+======================================================= */
 @media (min-width: 400px) {}
+@media (min-width: 576px) {}
 
-/* Larger than phablet */
-@media (min-width: 550px) {}
+@media (min-width: 768px) {
+	form{ width: 90%; }
+	textarea{ min-height: 10em; }
 
-/* Larger than tablet */
-@media (min-width: 750px) {}
+	/* Utility classes for form
+	------------------------------------------------ */
+	label, .form-div label{
+		margin-bottom: 0.2em;
+		font-size: 1.9rem;
+	}
+	.form-div{ margin-bottom: 0.8em; }
+	form.half-width{ width: 50%; }
+	form.three-quart{ width: 75%; }
+}
 
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
+@media (min-width: 992px) {}
 @media (min-width: 1200px) {}

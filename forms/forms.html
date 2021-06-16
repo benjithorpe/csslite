@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Forms</title>
-
 	<link rel="stylesheet" type="text/css" href="forms.css">
 </head>
 
 <body>
-	<form>
-		<label for="name">Name:</label>
-		<input type="text" name="name" id="name" placeholder="Enter a Name" class="formless-border">
+	<form class="half-width">
+		<div class="form-div">
+			<label>Name:</label>
+			<input type="text" placeholder="Enter a Name">
+		</div>
 
-		<label for="email">Email:</label>
-		<input type="email" name="email" id="email" placeholder="Enter an Email">
+		<div class="form-div">
+			<label>Email:</label>
+			<input type="email" placeholder="Enter an Email">
+		</div>
 
-		<label for="password">Password:</label>
-		<input type="password" name="password" id="password" placeholder="Enter a Password">
+		<div class="form-div">
+			<label>Password:</label>
+			<input type="password" placeholder="Enter a Password">
+		</div>
 
-		<label for="url">URL:</label>
-		<input type="url" name="url" id="url" placeholder="Enter a URL link">
+		<div class="form-div">
+			<label>URL:</label>
+			<input type="url" placeholder="Enter a URL link">
+		</div>
 
-		<label for="textarea">Message:</label>
-		<textarea name="textarea" id="textarea" placeholder="Type any message inside me"></textarea>
+		<div class="form-div">
+			<label>Search:</label>
+			<input type="search" placeholder="Search for something">
+		</div>
+
+		<div class="form-div">
+			<label>Message:</label>
+			<textarea placeholder="Type any message inside me"></textarea>
+		</div>
+
+		<div class="form-div">
+			<button type="button">Submit Me</button>
+		</div>
+
+		<div>
+			<label for="">Outside form</label>
+			<input type="text" placeholder="Outside the Form">
+		</div>
 	</form>
 </body>
-
 </html>
