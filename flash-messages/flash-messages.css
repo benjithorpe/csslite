@@ -1,0 +1,51 @@
+*, *::before, *::after{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* html{ font-size: 62.5%; } */
+body{ font-family: 'Trebuchet MS', Arial, sans-serif; }
+
+.flash-message{
+  padding: 1em;
+	margin: 1em;
+	padding-top: 0;
+	line-height: 1.5;
+	color: #666;
+	background-color: #fbfbfb;
+	display: grid;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.close-flash{
+	position: relative;
+	top: .5em;
+	justify-self: flex-end;
+	width: 30px;
+	height: 30px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #ddd;
+	border: 1px solid #aaa;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.close-flash::after{
+	color:#888;
+	content: "\2716";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	transform: translateY(10%);
+}
+
+.flash-message.flash-dark{
+	background-color: #333;
+	color: #f1f1f1;
+}
