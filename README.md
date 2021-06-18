@@ -10,7 +10,7 @@ A simple, lightweight, minimal and easy-to-use responsive CSS framework.
 CSSLite is lightweight, minimal and simple and easy to get started with.
 It styles plain HTML elements and offers some classes for more styles and provides a responsive grid. Nothing more.
 
-- Around 300+ lines of CSS.
+- Around 500+ lines of CSS.
 - It's simple and easy to get started with.
 - It's Opensource!
 - It's Flexible.
