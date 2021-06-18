@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modals</title>
+  <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+  <div class="modal">
+    <div class="modal-close">Close</div>
+    <div class="modal-content">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Dolore necessitatibus, numquam natus porro exercitationem
+        nostrum deleniti dicta a totam, asperiores quas repellat
+        molestias minima sunt at debitis consequatur provident veniam?
+        Dolore pariatur debitis minus ullam distinctio delectus
+        quibusdam maiores aspernatur repellendus? Tempore hic aliquam
+        ullam reprehenderit eum placeat beatae iure?</p>
+    </div>
+  </div>
+
+  <h1>Hello outside of modal</h1>
+
+  <script>
+    const modal = document.querySelector('.modal-close');
+    modal.addEventListener('click', () => {
+      modal.parentElement.style.display = "none";
+    });
+  </script>
+</body>
+</html>
