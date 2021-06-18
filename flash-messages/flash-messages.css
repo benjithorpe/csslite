@@ -3,13 +3,12 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-
 /* html{ font-size: 62.5%; } */
 body{ font-family: 'Trebuchet MS', Arial, sans-serif; }
 
 .flash-message{
   padding: 1em;
-	margin: 1em;
+	margin: 1em 2em;
 	padding-top: 0;
 	line-height: 1.5;
 	color: #666;
@@ -17,6 +16,11 @@ body{ font-family: 'Trebuchet MS', Arial, sans-serif; }
 	display: grid;
 	border: 1px solid #ddd;
 	border-radius: 5px;
+}
+
+.flash-bottom{
+	position: absolute;
+	bottom: 0;
 }
 
 .close-flash{
@@ -29,7 +33,6 @@ body{ font-family: 'Trebuchet MS', Arial, sans-serif; }
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #ddd;
-	border: 1px solid #aaa;
 	border-radius: 50%;
 	cursor: pointer;
 }
